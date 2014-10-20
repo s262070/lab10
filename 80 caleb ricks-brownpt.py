@@ -27,4 +27,8 @@ drawpad.create_line(520,230,400,110)
 #Square Windows and a Door
 drawpad.create_rectangle(320,270,350,300)
 drawpad.create_rectangle(440,270,470,300)
+drawpad.create_rectangle(410,430,380,350)
+drawpad.create_rectangle(320,380,350,410)
+drawpad.create_rectangle(440,380,470,410)
+
 root.mainloop()
