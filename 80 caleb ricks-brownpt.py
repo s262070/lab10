@@ -20,6 +20,11 @@ root = Tk()
 
 drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
-
-square = drawpad.create_rectangle(200,200,250,250, fill='red')
+#House outline
+drawpad.create_rectangle(280,230,520,430)
+drawpad.create_line(280,230,400,110)
+drawpad.create_line(520,230,400,110)
+#Square Windows and a Door
+drawpad.create_rectangle(320,270,350,300)
+drawpad.create_rectangle(440,270,470,300)
 root.mainloop()
